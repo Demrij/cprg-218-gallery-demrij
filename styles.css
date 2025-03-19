@@ -61,23 +61,37 @@ h2{
     text-align: center;
 }
 
-#gallery-container {
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+#gallery-container{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
     row-gap: 2rem;
+    column-gap: 2rem;
+    grid-column: span 2;
 }
 
-figure:last-child {
-    grid-column: span 2;
+figure:last-child{
+    grid-column: span ;
     width: 100%;
     margin: 0 auto;
+    grid-column: span 2;
+}
+figure {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-figure:last-child img {
+figure img{
     width: 100%;
-    max-width: 100%;
+    border-bottom: .5rem solid #97bf04;
+    display: block;
 }
+
+figcaption {
+    padding-top: 1rem;
 }
+
  }
 
 
@@ -167,6 +181,13 @@ figure img{
 
 figcaption {
     padding-top: 1rem;
+}
+
+figure:last-child{
+    grid-column: span ;
+    width: 100%;
+    margin: 0 auto;
+    grid-column: span 1;
 }
 }
 
