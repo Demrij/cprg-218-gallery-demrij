@@ -167,6 +167,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+h1{
+    padding: 1rem;
+}
+
 
 
 }
