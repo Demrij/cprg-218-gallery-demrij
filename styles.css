@@ -19,8 +19,9 @@ body{
     flex-direction: column;  
 } 
 
-/* nav */
+/* nav  mobile*/ 
 
+@media (max-width: 767px){
 nav{
     background-color: #d9043d;
     width: 100%;
@@ -37,7 +38,11 @@ nav ul{
 
 }
 
-li
+nav li{
+
+}
+
+}
 
 
 
