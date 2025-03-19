@@ -65,11 +65,47 @@ nav a:hover{
 
 main{
    padding-top: 15rem;
-
 }
 
+#gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+}
 
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+main{
+    margin: 1rem;
+}
 
+figure {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
+figure img{
+    width: 100%;
+    border-bottom: .5rem solid #97bf04;
+    display: block;
+}
 
+figcaption {
+    padding-top: 1rem;
+}
+}
+
+footer{
+    background-color: #d9043d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+
+}
 
