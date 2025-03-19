@@ -26,14 +26,14 @@ nav {
     text-align: center;
     position: absolute;
 }
- 
+ @media (max-width:999px)
+
+
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    gap: 2rem;
-    padding: 0;
     white-space: nowrap;
 }
  
@@ -45,12 +45,29 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+    padding: 1rem;
     white-space: nowrap;
 }
  
 nav a:hover {
     text-decoration: underline;
 }
+
+h1{
+    padding: 1rem;
+}
+
+h2{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 /* nav  mobile*/ 
 
@@ -109,6 +126,7 @@ main{
 
 h2 {
     padding: 1rem;
+    padding-top: 5rem;
     text-align: center;
 }
 main{
