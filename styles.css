@@ -22,11 +22,14 @@ body{
 /* nav  mobile*/ 
 
 @media (max-width: 767px){
+
 nav{
     background-color: #120323;
     width: 100%;
-    padding: 1 rem 0;
+    padding: 1 rem;
     position: absolute;
+    margin-top: 1rem;
+
 }
 
 nav ul{
@@ -40,7 +43,8 @@ nav ul{
 
 nav li{
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+    
   
 }
 
@@ -49,11 +53,21 @@ nav a {
     width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
+    color: white;
     border: 2px solid #97bf04;
-    background-color: #d9043d
+    background-color: #d9043d;
+    text-decoration: none;
 }
 
+nav a:hover{
+    text-decoration: underline;
 }
+
+main{
+   padding-top: 15rem;
+
+}
+
 
 
 
