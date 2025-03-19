@@ -91,7 +91,11 @@ figure img{
 figcaption {
     padding-top: 1rem;
 }
+main {
+    margin-left: 2rem;
+    margin-right: 2rem;
 
+}
  }
 
 
