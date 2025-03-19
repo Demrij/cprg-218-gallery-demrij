@@ -136,6 +136,37 @@ figcaption {
     padding-top: 1rem;
 }
 
+figure:last-child{
+    grid-column: span 2;
+}
+
+main{
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+ 
+nav li {
+    display: inline;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    white-space: nowrap;
+}
+ 
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 
 }
