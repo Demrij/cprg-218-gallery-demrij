@@ -8,7 +8,7 @@ header{
     text-align: center;
     background-color: #120323;
     color: #97bf04;
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 
 
@@ -18,6 +18,15 @@ body{
     display:flex;
     flex-direction: column;  
 } 
+
+/* nav */
+
+nav{
+    background-color: #d9043d;
+    width: 100%;
+    padding: 1 rem 0;
+    position: absolute;
+}
 
 
 
