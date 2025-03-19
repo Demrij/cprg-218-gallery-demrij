@@ -109,3 +109,43 @@ footer{
 
 }
 
+@media (max-width: 999px) {
+
+h1{
+    padding: 1rem;
+}
+    nav {
+        background-color: #d9043d;
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+        position: absolute;
+    }
+     
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        padding: 0;
+        white-space: nowrap;
+    }
+     
+    nav li {
+        display: inline;
+    }
+     
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+     
+    nav a:hover {
+        text-decoration: underline;
+    }
+     
+
+}
